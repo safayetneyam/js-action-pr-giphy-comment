@@ -1,4 +1,4 @@
-name: 'Giphy PR Comment'
+name: 'KodeKloud Giphy PR Comment by Neyam'
 description: 'Add a Giphy comment to new Pull Request!'
 
 inputs:
@@ -12,3 +12,7 @@ inputs:
 runs:
   using: "node20"
   image: "index.js"
+
+branding:
+  icon: "award"
+  color: "green"
